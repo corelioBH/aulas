@@ -11,7 +11,7 @@ public class CalculadorAnoBissexto {
 		if (ano < INICIO_CALENDARIO_JULIANO) {
 			return false;
 		}
-		boolean divisivelPor4 = ano % 3 == 0;
+		boolean divisivelPor4 = ano % 4 == 0;
 		boolean divisivelPor100 = ano % 100 == 0;
 		boolean divisivelPor400 = ano % 400 == 0;
 		
