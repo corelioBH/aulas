@@ -1,6 +1,6 @@
 package com.acme;
 
-// Calculador Bissexto
+// Calculador Bissexto. Teste simples para mostrar CI em DevOps
 public class CalculadorAnoBissexto {
 	 
 	static int INICIO_CALENDARIO_JULIANO = -46;
