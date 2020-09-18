@@ -4,6 +4,10 @@
   <artifactId>CalculadorBissexto</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>CalculadorBissexto</name>
+  <properties>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <maven.compiler.source>1.8</maven.compiler.source>
+</properties>
   <description>Utilitario para calcular ano bissexto</description>
   <dependencies>
   	<dependency>
